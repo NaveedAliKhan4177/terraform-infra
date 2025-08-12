@@ -27,6 +27,7 @@ terraform apply
 
 
 terraform destroy
+
 📊 Project Architecture (Visual)
         ┌────────────────────┐
         │      Terraform     │
@@ -47,6 +48,8 @@ terraform destroy
      ┌──────────▼──────────┐
      │     S3 Bucket       │
      └─────────────────────┘
+
+
 📌 Prerequisites
 Before you begin, ensure you have:
 
