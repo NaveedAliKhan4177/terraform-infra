@@ -13,30 +13,21 @@ This project provisions **AWS Infrastructure** using **Terraform** — making de
 ## 🛠 How to Use
 
 1️⃣ **Initialize Terraform**  
-```bash
+
 terraform init
 2️⃣ Review the Execution Plan
 
-bash
-Copy
-Edit
+
 terraform plan
 3️⃣ Apply the Configuration
 
-bash
-Copy
-Edit
+
 terraform apply
 4️⃣ Destroy Resources (Optional)
 
-bash
-Copy
-Edit
+
 terraform destroy
 📊 Project Architecture (Visual)
-plaintext
-Copy
-Edit
         ┌────────────────────┐
         │      Terraform     │
         └─────────┬──────────┘
