@@ -1,18 +1,75 @@
-# Terraform Infrastructure Project
+# 🌍 Terraform AWS Infrastructure Project
 
-This project provisions the following AWS resources using Terraform:
+This project provisions **AWS Infrastructure** using **Terraform** — making deployment **easy, repeatable, and scalable** 🚀.
 
-- VPC
-- EC2 Instance
-- S3 Bucket
+## 📦 Provisioned AWS Resources
 
-## How to Use
+- 🌐 **VPC** – Virtual Private Cloud for secure networking  
+- 🖥 **EC2 Instance** – Compute resource for hosting applications  
+- 📂 **S3 Bucket** – Scalable object storage for files & backups  
 
-1. Run `terraform init`
-2. Run `terraform plan`
-3. Run `terraform apply`
+---
 
-## Author
+## 🛠 How to Use
 
-[Naveed Ali Khan](https://github.com/NaveedAliKhan4177)
+1️⃣ **Initialize Terraform**  
+```bash
+terraform init
+2️⃣ Review the Execution Plan
 
+bash
+Copy
+Edit
+terraform plan
+3️⃣ Apply the Configuration
+
+bash
+Copy
+Edit
+terraform apply
+4️⃣ Destroy Resources (Optional)
+
+bash
+Copy
+Edit
+terraform destroy
+📊 Project Architecture (Visual)
+plaintext
+Copy
+Edit
+        ┌────────────────────┐
+        │      Terraform     │
+        └─────────┬──────────┘
+                  │
+        ┌─────────▼──────────┐
+        │        AWS         │
+        └───────┬─┬──────────┘
+                │ │
+         ┌──────▼ ▼──────┐
+         │     VPC       │
+         └──────┬────────┘
+                │
+     ┌──────────▼──────────┐
+     │     EC2 Instance    │
+     └──────────┬──────────┘
+                │
+     ┌──────────▼──────────┐
+     │     S3 Bucket       │
+     └─────────────────────┘
+📌 Prerequisites
+Before you begin, ensure you have:
+
+✅ Terraform installed
+
+✅ AWS CLI configured with credentials (aws configure)
+
+✅ An AWS account
+
+👨‍💻 Author
+Naveed Ali Khan
+💬 Feel free to connect and share your feedback!
+
+📜 License
+This project is licensed under the MIT License – free to use, modify, and distribute.
+
+⭐ If you found this useful, consider giving it a star on GitHub!
